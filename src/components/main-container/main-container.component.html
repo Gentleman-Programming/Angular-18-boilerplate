@@ -1,0 +1,15 @@
+<div>
+  @if (characters$ | async; as characters) {
+    @for (character of characters; track character.id) {
+      @defer (on viewport) {
+        <app-character-card
+          [character]="character"
+          [characterInfo]="characterInfo[character.id]"
+          (loaded)="makeApiCall($event)"
+        />
+      } @placeholder {
+        <div class="placeholder"></div>
+      }
+    }
+  }
+</div>
