@@ -38,12 +38,6 @@ Para iniciar la aplicación en modo desarrollo, ejecuta:
 ng serve
 ```
 
-## Estructura del Proyecto
-
-- **src/app**: Contiene los componentes, servicios y módulos principales de la aplicación.
-- **src/assets**: Archivos estáticos como imágenes y estilos.
-- **src/environments**: Configuraciones de entorno para diferentes stages.
-
 ## Ejemplos de Uso
 
 Este boilerplate incluye ejemplos prácticos para mostrar cómo utilizar las nuevas características de Angular 18:
