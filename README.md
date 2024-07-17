@@ -4,17 +4,17 @@
 
 ## Características
 
-- **Angular 18** con Signals, sin usar zone.
-- **Bun por defecto**, porque a veces menos es más.
-- Ejemplos prácticos utilizando el **nuevo Control Flow** de Angular 18 con **@if, @for, @let, @defer y @placeholder**.
-- Uso de los **nuevos input y output signals**.
-- **ngOptimizedImage** para optimizar las imágenes.
-- **SSR** (Server-Side Rendering) incluido para mejorar la performance y SEO.
-- Utilizamos **inject** para inyectar dependencias en vez de usar el constructor tradicional.
-- Aplicación de **conceptos de clean architecture** para un proyecto sólido y escalable.
-- Una mini-aplicación con **virtual scroll** y carga perezosa.
-- **Configuraciones para que los componentes por defecto utilicen la estrategia OnPush**.
-- **ESLint** con las configuraciones predilectas para el correcto desarrollo.
+- **Angular 18** con Signals, sin usar zone.js
+- **Bun por defecto**, porque a veces menos es más
+- Ejemplos prácticos utilizando el **nuevo Control Flow** de Angular 18 con **@if, @for, @let, @defer y @placeholder**
+- Uso de los **nuevos input y output signals**
+- **ngOptimizedImage** para optimizar las imágenes
+- **SSR** (Server-Side Rendering) incluido para mejorar la performance y SEO
+- Utilizamos **inject** para inyectar dependencias en vez de usar el constructor tradicional
+- Aplicación de **conceptos de clean architecture** para un proyecto sólido y escalable
+- Una mini-aplicación con **virtual scroll** y carga perezosa
+- **Configuraciones para que los componentes por defecto utilicen la estrategia OnPush**
+- **ESLint** con las configuraciones predilectas para el correcto desarrollo
 
 ## Instalación
 
