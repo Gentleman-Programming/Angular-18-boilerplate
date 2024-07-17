@@ -1,27 +1,56 @@
-# Angular18
+# Angular 18 Boilerplate 🚀
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.0.
+¡Bienvenidos al repositorio de Gentleman Programming! Estoy emocionado de compartir con ustedes un boilerplate completísimo para Angular 18, diseñado para que puedan arrancar sus proyectos con la mejor base posible. 💻🔧
 
-## Development server
+## Características
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- **Angular 18** con Signals, sin usar zone.js
+- **Bun por defecto**, porque a veces menos es más
+- Ejemplos prácticos utilizando el **nuevo Control Flow** de Angular 18 con **@if, @for, @let, @defer y @placeholder**
+- Uso de los **nuevos input y output signals**
+- **ngOptimizedImage** para optimizar las imágenes
+- **SSR** (Server-Side Rendering) incluido para mejorar la performance y SEO
+- Utilizamos **inject** para inyectar dependencias en vez de usar el constructor tradicional
+- Aplicación de **conceptos de clean architecture** para un proyecto sólido y escalable
+- Una mini-aplicación con **virtual scroll** y carga perezosa
+- **Configuraciones para que los componentes por defecto utilicen la estrategia OnPush**
+- **ESLint** con las configuraciones predilectas para el correcto desarrollo
 
-## Code scaffolding
+## Instalación
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. Clona el repositorio:
+   ```bash
+   git clone https://github.com/Gentleman-Programming/Angular-18-boilerplate
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd Angular-18-boilerplate
+   ```
+3. Instala las dependencias:
+   ```bash
+   bun install
+   ```
 
-## Build
+## Uso
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Para iniciar la aplicación en modo desarrollo, ejecuta:
+```bash
+ng serve
+```
 
-## Running unit tests
+## Ejemplos de Uso
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Este boilerplate incluye ejemplos prácticos para mostrar cómo utilizar las nuevas características de Angular 18:
+- **Control Flow**: Usando @if, @for, @let, @defer y @placeholder.
+- **Signals**: Ejemplos de input y output signals.
+- **Inyección de dependencias**: Uso del nuevo método inject.
+- **Optimización de imágenes**: Implementación de ngOptimizedImage.
+- **Virtual Scroll**: Ejemplo de carga perezosa con virtual scroll.
 
-## Running end-to-end tests
+## Contribuciones
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+¡Las contribuciones son bienvenidas! Si encuentras algún problema o tienes una mejora, por favor abre un issue o un pull request.
 
-## Further help
+## Autor
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Gentleman Programming 👨‍💻✨
